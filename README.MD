@@ -1,19 +1,34 @@
-# TeD: Test and Develop - Playground
+# Route From URL
 
-
-## Installation
-
-
-
-### Install Package
-
-`npm install`
+Creates Route Object from URL.
 
 
 
-### Tests
+### Usage
 
-`npm run test`
+Use `getRoute` function which takes in url(string) and returns the route object.
+
+Format for route object:
+```
+   getRoute(url: string)
+      => {
+            href: string,
+            protocol: string,
+            host: string,
+            hostname: string,
+            port: string,
+            pathname: string,
+            search: string,
+            hash: string
+         }
+
+```
+
+
+
+### Author
+
+Abhilash Srivastava
 
 
 
