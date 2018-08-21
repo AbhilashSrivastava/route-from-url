@@ -5,7 +5,7 @@ module.exports = function getRoute(url) {
     /^(https?\:)\/\/(([^:\/?#]*)(?:\:([0-9]+))?)([\/]{0,1}[^?#]*)(\?[^#]*|)(#.*|)$/
   )
   return (match && {
-    href: href,
+    href: url,
     protocol: match[1],
     host: match[2],
     hostname: match[3],
