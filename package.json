@@ -1,6 +1,6 @@
 {
   "name": "route-from-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package gives the route object from a url",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,9 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhilashSrivastava/route-from-url"
   }
 }
