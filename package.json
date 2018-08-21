@@ -1,6 +1,6 @@
 {
   "name": "route-from-url",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package gives the route object from a url",
   "main": "index.js",
   "scripts": {
