@@ -1,9 +1,9 @@
 {
   "name": "route-from-url",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This package gives the route object from a url",
   "main": "index.js",
-  "typings": "index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register *.test.js"
   },
